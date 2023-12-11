@@ -56,7 +56,7 @@ public class WhatsappRepository {
         }
         Group group = new Group();
         group.setName(grpName);
-        group.setNumberOfParticipants(users.size());
+        group.setnumberOfParticipants(users.size());
         groupUserMap.put(group,users);
         adminMap.put(group,users.get(0));
         groupMessageMap.put(group,new ArrayList<>());

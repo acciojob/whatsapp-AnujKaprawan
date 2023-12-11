@@ -24,8 +24,9 @@ public class Group {
         return numberOfParticipants;
     }
 
-    public void seetnumberOfParticipants(){
+    public void setnumberOfParticipants(int numberOfParticipants){
         this.numberOfParticipants = numberOfParticipants;
     }
+
 
 }

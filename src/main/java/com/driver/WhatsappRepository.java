@@ -153,7 +153,7 @@ public class WhatsappRepository {
             throw new Exception("Cannot remove admin");
         }
         groupUserMap.get(group1).remove(user);
-        group1.setNumberOfParticipants(group1.getNumberOfParticipants()-1);
+        group1.setnumberOfParticipants(group1.getnumberOfParticipants()-1);
         for(Message message:senderMap.keySet())
         {
             if(senderMap.get(message)==user)
